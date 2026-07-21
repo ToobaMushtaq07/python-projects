@@ -1,0 +1,45 @@
+    
+    num = int(input("Enter a number: "))
+if num > 1:
+    for i in range(2, num):
+        if num % i == 0:
+            print(num, "is not a prime number")
+            break
+    else:
+        print(num, "is a prime number")
+else:
+    print(num, "is not a prime")
+
+    text = input("Enter a string: ")
+
+if text == text[::-1]:
+    print(text, "is a Palindrome")
+else:
+    print(text, "is not a Palindrome")
+
+
+
+
+
+    num = int(input("Enter a number: "))
+if num > 1:
+    for i in range(2, num):
+        if num % i == 0:
+            print(num, "is not a Prime Number")
+            break
+    else:
+        print(num, "is a Prime Number")
+else:
+    print(num, "is not a Prime Number")
+
+text = input("Enter a string: ")
+
+if text == text[::-1]:
+    print(text, "is a Palindrome")
+else:
+    print(text, "is not a Palindrome")
+
+    
+    
+
+   

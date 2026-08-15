@@ -29,12 +29,14 @@ class Student:
     def grade(self):
         if self.marks >= 80:
             return "A"
-         elif self.marks >= 60:
-            return "B"
-         elif self.marks >= 40:
+         elif 
+        self.marks >= 60:
+        return "B"
+         elif
+        self.marks >= 40:
             return "C"
-       else:
-           return " Fail"
+         else:
+  return " Fail"
 s = Student("ali",90)
 print("Name:",s.name)
 print("Marks:",s.marks)
@@ -70,9 +72,9 @@ try:
     x = int(input("enter first numb:"))
     y = int(input("enter second numb:"))
     print("result:", x/y)
-    except ZeroDevisionError:
+except ZeroDevisionError:
         print("cannot divide by zero.")
-    except ValueError:
+except ValueError:
         print("invalid input.")
 
 
